@@ -38,7 +38,7 @@ It will give an URL to access the currency convertor.
     
     http://127.0.0.1:8080
 
-Now open any browser and hit the url "localhost:8080/CurrencyConverterAPI-master". It will load the application.
+Now open any browser and hit the url "http://localhost:8080/CurrencyConverterAPI/". It will load the application.
 
 ## Note:
 1.Use "ctrl+C" to stop the http-server.
