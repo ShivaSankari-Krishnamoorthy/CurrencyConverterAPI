@@ -1,4 +1,4 @@
-# CaseStudy-Exercise-Currency-Converter-API
+# CaseStudy Exercise : Currency Converter API
 
 ## About the application : 
 
