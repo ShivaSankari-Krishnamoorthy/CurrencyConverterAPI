@@ -1,0 +1,34 @@
+{
+  "name": "casestudy-currencyconverter",
+  "version": "1.1.0",
+  "description": "currency converter",
+  "main": "index.html",
+  "dependencies": {
+   "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "requirejs": "^2.3.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build-css" : "node-sass CurrencyConverterAPI/assets/sass -o CurrencyConverterAPI/assets/css",
+	"watch-css": "node-sass -w CurrencyConverterAPI/assets/sass -o CurrencyConverterAPI/assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivaSankari-Krishnamoorthy/CurrencyConverterAPI.git"
+  },
+  "keywords": [
+    "currency",
+    "converter",
+    "api"
+  ],
+  "author": "ShivaSankari-Krishnamoorthy <shivasankari.k@tcs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivaSankari-Krishnamoorthy/CurrencyConverterAPI/issues"
+  },
+  "homepage": "https://github.com/ShivaSankari-Krishnamoorthy/CurrencyConverterAPI#readme"
+}

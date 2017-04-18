@@ -1,0 +1,40 @@
+@import 'mixins';
+$app-border:#080808; 
+$fifty: 50px;
+$lightgrey :#eee;
+$white :#fff;
+
+.mainContainer {
+	margin-top:$fifty !important;
+}
+.converted-amt{
+   margin-top: $fifty !important;
+}
+.form-control{
+	padding:3px 6px !important;
+}
+.panel {
+	min-width: 220px !important;
+}
+.panel-default {
+    border-color: $app-border !important;
+	@include border-radius(1px); 
+	@include linearGradient(lighten($lightgrey,3%), $white);
+}
+.container{
+	
+	
+	@include desktop {
+     width: 425px;
+  }
+}
+.disclaimer{
+margin-top: $fifty + 10;
+}
+.disclaimer-style{
+	float:right ;
+}
+#errorDiv{
+text-align : center !important;
+margin-top:25px !important;
+}
