@@ -40,8 +40,9 @@ It will give an URL to access the currency convertor.
 
 Now open any browser and hit the url "localhost:8080/CurrencyConverterAPI-master". It will load the application.
 
-    Note:
-    1.Use "ctrl+C" to stop the http-server.
-    2.If you want to change any css styles, run the following command "npm run watch-css".Then add your changes in style.scss file and 	     save it.The sass compiler will update the changes in style.css file.Start the server again(follow step-6) to run the application .
+## Note:
+1.Use "ctrl+C" to stop the http-server.
+
+2.If you want to change any css styles, run the following command "npm run watch-css". Then add your changes in style.scss file and save it.The sass compiler will update the changes in style.css file.Start the server again(follow step-6) to run the application .
    
 
