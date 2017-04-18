@@ -22,8 +22,7 @@ $white :#fff;
 	@include linearGradient(lighten($lightgrey,3%), $white);
 }
 .container{
-	
-	
+	padding-left: 0px !important;	
 	@include desktop {
      width: 425px;
   }
