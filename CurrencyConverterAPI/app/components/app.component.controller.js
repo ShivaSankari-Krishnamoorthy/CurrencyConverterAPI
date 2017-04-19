@@ -1,7 +1,7 @@
 /*
 This file contains the logic codes for converting the currencies to the selected type.
 */
-//loads the dependency (app.component.services.js)  and includes 'services' which contains the Fixer API service call codes and returns the status of the service call 
+//loads the dependency (app.component.services.js)  and includes 'services' which contains the Fixer API service call codes
 define(['services'], function(currencyConverterService) {
     return function($scope, currencyConverterService){
         $scope.rates = {};
