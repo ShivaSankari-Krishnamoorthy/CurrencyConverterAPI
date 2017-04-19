@@ -13,7 +13,7 @@ Three types of currencies are available in the dropdown, such as CAD, USD, EUR.U
 
 It shows the converted result instantly in the converted amount textbox .
 
-User can click on the Disclaimer link and additional information about the exchange rate are shown.
+User can click on the Disclaimer link to see the additional information about the exchange rate.
 
 ## Steps to run the application :
 
@@ -23,7 +23,7 @@ Step-2. This application requires node.js for installing the dependencies and ru
 
 Step-3. Open command prompt and set the target to the project location using "cd <project location>" command. eg:( cd Your drive:\project downloded directory\CurrencyConverterAPI-master ). 
 
-Step-4. Run the command "npm install http-server -g" to install http-server globally. It will download and install http-server in your system globally.
+Step-4. Run the command "npm install http-server -g" to install http-server globally. It will download and install http-server in your system globally. Ignore this step if http-server is already installed.
 
 Step-5. Run the command "npm install" to install the dependencies (js and css library files). After running this command you will be able to see 'node_modules' folder inside the "CurrencyConverterAPI-master" folder. The 'node_modules' folder contains all the application dependency files.
 
