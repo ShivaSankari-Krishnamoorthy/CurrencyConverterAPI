@@ -33,8 +33,6 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
   /* IE6-9 */ }
 
-.container {
-  padding-left: 0px !important; }
 @media (min-width: 425px) {
   .container {
     width: 425px; } }
