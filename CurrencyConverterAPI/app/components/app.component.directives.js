@@ -30,9 +30,13 @@ define(['appModule'], function(app){
                     }
                     return clean;
                 });
-                element.bind('keypress', function(event) {
-					// preventing from adding space by pressing spacebar in keyboard
-                    if (event.keyCode === 32) {
+		element.bind('keypress', function(event) {
+		    // preventing from adding space by pressing spacebar in keyboard
+                    var oldValue = this.value;
+                    if (event.charCode === 32) {
+                        event.preventDefault();
+                    }
+                    else if(oldValue.indexOf('.') >= 0 && event.charCode == 46){
                         event.preventDefault();
                     }
                 });
