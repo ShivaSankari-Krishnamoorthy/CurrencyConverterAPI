@@ -23,11 +23,13 @@ Step-2. This application requires node.js for installing the dependencies and ru
 
 Step-3. Open command prompt and set the target to the project location using "cd <project location>" command. eg:( cd Your drive:\project downloded directory\CurrencyConverterAPI-master ). 
 
-Step-4. Run the command "npm install http-server -g" to install http-server globally. It will download and install http-server in your system globally. Ignore this step if http-server is already installed.
+Step-4. Run the command "npm install node-sass -g" to install node-sass globally. It will download and install node-sass in your system globally. Ignore this step if node-sass is already installed.
 
-Step-5. Run the command "npm install" to install the dependencies (js and css library files). After running this command you will be able to see 'node_modules' folder inside the "CurrencyConverterAPI-master" folder. The 'node_modules' folder contains all the application dependency files.
+Step-5. Run the command "npm install http-server -g" to install http-server globally. It will download and install http-server in your system globally. Ignore this step if http-server is already installed.
 
-Step-6.Run the command "http-server Your drive:\project downloded directory\CurrencyConverterAPI-master" to run the app on the http-server.
+Step-6. Run the command "npm install" to install the dependencies (js and css library files). After running this command you will be able to see 'node_modules' folder inside the "CurrencyConverterAPI-master" folder. The 'node_modules' folder contains all the application dependency files.
+
+Step-7.Run the command "http-server Your drive:\project downloded directory\CurrencyConverterAPI-master" to run the app on the http-server.
 eg: http-server C:\Users\Public\Downloads\CurrencyConverterAPI-master
     
 It will give an URL to access the currency convertor.
@@ -43,6 +45,6 @@ Now open any browser and hit the url "http://localhost:8080/CurrencyConverterAPI
 ## Note:
 1.Use "ctrl+C" to stop the http-server.
 
-2.If you want to change any css styles, run the following command "npm run watch-css". Then add your changes in style.scss file and save it.The sass compiler will update the changes in style.css file.Start the server again(follow step-6) to run the application .
+2.If you want to change any css styles, run the following command "npm run watch-css". Then add your changes in style.scss file and save it.The sass compiler will update the changes in style.css file.Start the server again(follow step-7) to run the application .
    
 
